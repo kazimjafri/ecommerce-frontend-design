@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 170px 10px 170px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Navbar .brand {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar .brand i {
+    color: #4285f4;
+    font-size: 24px;
+}
+
+.Navbar .brand span {
+    font-size: 20px;
+    color: #4285f4;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.Navbar .search {
+    display: flex;
+    align-items: center;
+    border: 2.5px solid #4285f4;
+    width: 600px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Navbar .search input[type="text"] {
+    border: none;
+    padding: 8px;
+    outline: none;
+    flex: 1;
+}
+
+.Navbar .search select {
+    border: none;
+    padding: 8px;
+    outline: none;
+    background-color: #f9f9f9;
+}
+
+.Navbar .search button {
+    background-color: #126dff;
+    color: white;
+    width: 90px;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.Navbar .icons {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar .icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Navbar .icons div i {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.Navbar .icons div:hover {
+    color: #4285f4;
+}
+
+.category{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #f8f9fa;
+    /* padding: 20px 40px; */
+    padding: 10px 110px 10px 170px;
+    color: #6c757d;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 20px;
+}
+
+.brand {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.brand h2 {
+    color: #007bff;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.social-icons a:hover {
+    opacity: 1;
+}
+
+.links {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.links div {
+    flex: 1;
+    min-width: 150px;
+}
+
+.links h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links li {
+    margin-bottom: 5px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #007bff;
+}
+
+.get-app {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.get-app img {
+    display: block;
+    max-width: 150px;
+    margin: 10px auto;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 80px;
+    font-size: 14px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+}
+
+.language img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+
+
+.subscribe {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.subscribe h3 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    font-size: 14px;
+    color: #6c757d;
+    margin: 0;
+}
+
+
+
+
+
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.sub-search {
+    display: flex;
+    align-items: center;
+    border: 2px solid #6c757d75;
+    width: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.sub-search input[type="text"] {
+    border: none;
+    padding: 8px;
+    outline: none;
+    flex: 1;
+}
+
+.sub-search button {
+    background-color: #126dff;
+    color: white;
+    width: 110px;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+
+.icon-container i{
+    color: #6c757d;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 8px;
+}
